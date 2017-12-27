@@ -1,0 +1,100 @@
+.philoWhoTextCont {
+	padding: 120px;
+}
+
+.philoWhoLabel {
+	margin-bottom: 20px;
+	width: 70px;
+}
+
+.philoWhoText {
+	font-size: 14px; 
+	margin-top: 40px; 
+	text-align: justify; 
+	line-height: 50px; 
+	letter-spacing: 0px; 
+	color: #a2a4a6;
+}
+
+.philoWhoImgCont {
+	padding: 40px; 
+	padding-top: 70px;
+}
+
+.philoWhoImg {
+	width: 400px;
+}
+
+.philoWhatCont {
+	margin-bottom: 20px; 
+	margin-top: 50px;
+}
+
+.philoWhatBlock {
+	height: 300px; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	width: 800px; 
+	background-color: white;
+}
+
+.philoWhatImg {
+	width: auto; 
+	max-width: 305px;
+}
+
+.philoWhatLabel {
+	font-size: 29px; 
+	font-weight: 500; 
+	letter-spacing: 1.5px;
+}
+
+/* CP */
+@media screen and (max-width: 768px) {
+	.philoWhoTextCont {
+		padding: 60px;
+		padding-bottom: 40px;
+	}
+
+	.philoWhoLabel {
+		margin-bottom: 20px;
+		width: 50px;
+	}
+
+	.philoWhoText {
+		font-size: 10px; 
+		margin-top: 40px; 
+		text-align: justify; 
+		line-height: 35px; 
+		letter-spacing: 0px; 
+		color: #a2a4a6;
+	}
+
+	.philoWhoImgCont {
+		padding: 60px; 
+		padding-top: 0px;
+	}
+
+	.philoWhatCont {
+		margin-bottom: 20px; 
+		margin-top: 20px;
+	}
+
+	.philoWhatBlock {
+		height: 300px; 
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+		width: 350px; 
+		background-color: white;
+	}
+
+	.philoWhatImg {
+		height: 300px;
+		width: auto; 
+		max-width: 140px;
+	}
+
+	.philoWhatLabel {
+		font-size: 20px; 
+		font-weight: 500; 
+		letter-spacing: 1.5px;
+	}
+}

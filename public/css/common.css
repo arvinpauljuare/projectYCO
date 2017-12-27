@@ -1,0 +1,157 @@
+/* GENERIC */
+.div100 {
+  height: 100%; 
+  width: 100%
+}
+
+/* NAVBAR  */
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #9b9da0;
+}
+
+.navbar-inverse {
+  border-radius: 0px;
+  background-color: #212121;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-inverse 
+.navbar-nav>.active>a, 
+.navbar-inverse 
+.navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: #b6d58f;
+  color: black;
+}
+
+.form-control::-webkit-input-placeholder { color: #b7d68f; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #b7d68f; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #b7d68f; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #b7d68f; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #b7d68f; }  /* Microsoft Edge */
+
+/* PC */
+@media screen and (min-width: 769px) {
+    /* BANNER */
+    .bannerBG {
+      background-image: url('../img/common/bannerBG.jpg');
+      background-size: 100% 100%;
+      height: 60%; 
+      width: 100%
+    }
+
+    /* INITIAL */
+    .initialLogoSize {
+      width: 300px;
+    }
+
+    .initialContainer {
+      width: 100%;
+      height: 100%;
+    }
+
+    .initialLogo {
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+    }
+
+    /* NAVBAR */
+    .navbar-nav.navbar-center {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+    }
+
+    /* FOOTER */
+    .footerContainer {
+      background-color: #dee4bc; 
+      height: 100px;
+    }
+
+    .divFooter {
+      padding: 14px 14px 14px 14px; 
+      margin-left: 100px;
+    }
+
+    .iconsMargin {
+      margin-left: 650px;
+    }
+
+    .iconMain {
+      height: 70px;
+      width: 120px;
+    }
+}
+
+/* CP  */
+@media screen and (max-width: 768px) {
+    /* BANNER */
+    .bannerBG {
+      background-image: url('../img/common/bannerBG.jpg');
+      background-size: 100% 100%;
+      height: 30vh; 
+      width: 100%
+    }
+    /* INITIAL */
+    .initialContainer {
+      width: 100%;
+      height: 100%;
+    }
+
+    .initialLogoSize {
+      width: 250px;
+    }
+
+    .initialLogo {
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+    }
+
+    /* FOOTER */
+    .footerContainer {
+      background-color: #dee4bc; 
+      height: 80px;
+    }
+
+    .divFooter {
+      padding: 14px 0px 14px 0px; 
+      margin-left: 0px;
+    }
+
+    .iconsMargin {
+      margin-left: 100px;
+    }
+
+    .iconMain {
+      height: 50px;
+      width: 100px;
+    }
+
+    .icons {
+      height: 25px;
+      width: 25px;
+    }
+
+}
+

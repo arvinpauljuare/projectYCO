@@ -1,0 +1,650 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height:100%;
+  /*background-color: #48484a;*/
+}
+/* PC */
+@media screen and (min-width: 769px) {
+  /* YCO */
+  .slide {
+    position: relative;
+    padding-top: 17%;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  }
+
+  .slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+  }
+
+  .slide, .slide:before {
+    background: 50% 50% / cover;  
+  }
+
+  .header {
+    text-align: center; 
+  }
+
+  #title {
+    background-image: url('../img/home/bgHome.jpg');
+    background-attachment: fixed;  
+  }
+
+  .homeMainLogo {
+    width: 300px;
+  }
+
+  /* ABOUT US */
+  .aboutUsTitle {
+    width: 600px;
+  }
+
+  .aboutUsDiv {
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    padding-left: 300px; 
+    padding-right: 300px; 
+    line-height: 30px; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    font-size: 12px; 
+    font-color: #ffffff
+  }
+
+  .aboutUsButtonCont {
+    margin-top: 20px;
+  }
+
+  .aboutUsButton {
+    border-radius: 0px; 
+    background-color: #b7d68f; 
+    color: black; 
+    width: 180px; 
+    border: 0px;
+  }
+
+  .aboutUsLabel {
+    font-size: 12px; 
+    letter-spacing: 2px;
+  }
+
+  #slide1{
+    background-image: url('../img/home/aboutUs.png');
+    background-color: #212020;
+    background-size: 100% 100%;
+  }
+
+  .slideAboutUs {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 10vh 10%;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    text-shadow: 0;
+  }
+
+  /* VISSION MISSION */
+  #slide2 {
+    background-attachment: fixed;
+    background-color: #b6d58f;
+  }
+
+  .slideVision {
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  }
+
+  .visionMissionIcon {
+    width: 300px;
+    margin-top: 40px;
+  }
+
+  .visionMission {
+    max-height: 80%;
+    max-width: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .visionMissionLabel {
+    font-weight: bold; 
+    font-size: 30px;
+  }
+
+  .visionMissionHR {
+    height: 0; 
+    border: 0; 
+    border-top: 1px solid black;
+    width: 150px;
+  }
+
+  .visionMissionText {
+    padding-bottom: 40px; 
+    padding-top: 20px; 
+    padding-left: 230px; 
+    padding-right: 230px; 
+    line-height: 30px; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    font-size: 12px; 
+    font-color: #ffffff;
+  }
+
+  /* CONTAINERS */
+  .mini-container img {
+    max-width: 100%;
+    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .mini-container:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .mini-container { 
+    position:fixed; 
+    width:50%; 
+    height:50%;  
+    padding: 10px; 
+  }
+
+  .imageCont {
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 40px;
+  }
+
+  .imageCont2 {
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 60px;
+  }
+
+  .imageCont3 {
+    max-height: 80%;
+    max-width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 40px;
+  }
+
+  #NW { 
+    top: 0;   
+    left: 0;   
+    background: cover; 
+    margin: auto;   
+  }
+  
+  #NE { 
+    top: 0;   
+    left: 50%; 
+    background: cover; 
+    margin: auto; 
+    background-color: #dbdbdb;
+  }
+
+  #SW { 
+    top: 50%; 
+    left: 0;   
+    background: cover; 
+    margin: auto; 
+    background-color: #dbdbdb;
+  }
+
+  #SE { 
+    top: 50%; 
+    left: 50%; 
+    background:cover;    
+  }    
+
+  /* CONTACT US */
+  #slide4 {
+    background: #212121;
+  }
+
+  .slideContactUs {
+    position: relative;
+    padding: 10vh 10%;
+    min-height: 85vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  } 
+
+  .csTitle {
+    width: 600px;
+  } 
+
+  .csForm {
+    margin-top: 30px;
+  }
+
+  .csText {
+    background-color: #212121; 
+    border-color: #b7d68f; 
+    border-radius: 0px; 
+    padding: 20px; 
+    color: #b7d68f;
+  }
+
+  .csSubjectCont {
+    margin-top: 10px;
+  }
+
+  .csButtonCont {
+    margin-top: 25px;
+  }
+
+  .csButton {
+    border-radius: 0px; 
+    background-color: #b7d68f; 
+    color: black; 
+    width: 250px; 
+    border: 0px;
+  }
+
+  .csButtonLabel {
+    font-size: 12px; 
+    letter-spacing: 2px;
+  }
+
+  .icon1Cont {
+    padding-top: 15px; 
+    padding-bottom: 30px; 
+    padding-left: 140px;
+  }
+
+  .csPlace {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 20px; 
+    margin-left: 12px;
+  }
+
+  .icon2Cont {
+    padding-left: 132px; 
+    padding-bottom: 30px; 
+  }
+
+  .csInfo {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 15px; 
+    margin-left: 20px;
+  }
+
+  .icon3Cont {
+    padding-left: 126px;
+  }
+
+  .csNumber {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 18px; 
+    margin-left: 24px;
+  }
+
+}
+
+/* CP */
+@media screen and (max-width: 768px) {
+  /* YCO */
+  .slide {
+    position: relative;
+    padding-top: 30%;
+    min-height: 40vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  }
+
+  .slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+  }
+
+  .slide, .slide:before {
+    background: 50% 50% / cover;
+  }
+
+  .header {
+    text-align: center; 
+  }
+
+  #title {
+    background-image: url('../img/home/bgHome.jpg');
+    background-attachment: fixed;  
+  }
+
+  .homeMainLogo {
+    width: 150px;
+  }
+
+  /* ABOUT US */
+  .aboutUsTitle {
+    width: 300px;
+  }
+
+  .aboutUsDiv {
+    padding-bottom: 20px; 
+    padding-top: 20px; 
+    padding-left: 50px; 
+    padding-right: 50px; 
+    line-height: 20px; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    font-size: 10px; 
+    font-color: #ffffff
+  }
+
+  .aboutUsButtonCont {
+    margin-top: 20px;
+  }
+
+  .aboutUsButton {
+    border-radius: 0px; 
+    background-color: #b7d68f; 
+    color: black; 
+    width: 150px; 
+    border: 0px;
+  }
+
+  .aboutUsLabel {
+    font-size: 10px; 
+    letter-spacing: 2px;
+  }
+
+  #slide1{
+    background-image: url('../img/home/aboutUs.png');
+    background-color: #212020;
+    background-size: 100% 100%;
+  }
+
+  .slideAboutUs {
+    position: relative;
+    min-height: 30vh;
+    width: 100vw;
+    padding: 5vh 5%;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    text-shadow: 0;
+  }
+
+  /* VISSION MISSION */
+  #slide2 {
+    background-attachment: fixed;
+    background-color: #b6d58f;
+  }
+
+  .slideVision {
+    position: relative;
+    min-height: 30vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  }
+
+  .visionMissionIcon {
+    margin-top: 40px;
+    width: 100px;
+  }
+
+  .visionMission {
+    max-height: 80%;
+    max-width: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .visionMissionLabel {
+    font-weight: bold; 
+    font-size: 20px;
+  }
+
+  .visionMissionHR {
+    height: 0; 
+    border: 0; 
+    border-top: 1px solid black;
+    width: 100px;
+  }
+
+  .visionMissionText {
+    padding-bottom: 40px; 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    line-height: 20px; 
+    letter-spacing: 1px; 
+    text-align: center; 
+    font-size: 10px; 
+    font-color: #ffffff;
+  }
+
+  /* CONTAINERS */
+  .mini-container img {
+    max-width: 100%;
+    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+
+  .mini-container:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .mini-container { 
+    position: fixed; 
+    width: 50%; 
+    height: 50%;  
+    padding: 10px; 
+  }
+
+  .imageCont {
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .imageCont2 {
+    max-height: 70%;
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .imageCont3 {
+    max-height: 80%;
+    max-width: 80%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px;
+  }
+
+  #NW { 
+    top: 0;   
+    left: 0;   
+    background: cover; 
+    margin: auto;   
+  }
+  
+  #NE { 
+    top: 0;   
+    left: 50%; 
+    background: cover; 
+    margin: auto; 
+    background-color: #dbdbdb;
+  }
+
+  #SW { 
+    top: 50%; 
+    left: 0;   
+    background: cover; 
+    margin: auto; 
+    background-color: #dbdbdb;
+  }
+
+  #SE { 
+    top: 50%; 
+    left: 50%; 
+    background:cover;    
+  }      
+
+  /* CONTACT US */
+  #slide4 {
+    background: #212121;
+  }
+
+  .slideContactUs {
+    position: relative;
+    padding: 5vh 5%;
+    min-height: 40vh;
+    width: 100vw;
+    box-sizing: border-box;
+    transform-style: inherit;
+  } 
+
+  .csTitle {
+    width: 300px;
+  } 
+
+  .csForm {
+    margin-top: 30px;
+  }
+
+  .csText {
+    background-color: #212121; 
+    border-color: #b7d68f; 
+    border-radius: 0px; 
+    padding: 20px; 
+    color: #b7d68f;
+  }
+
+  .csSubjectCont {
+    margin-top: 10px;
+  }
+
+  .csButtonCont {
+    margin-top: 25px;
+  }
+
+  .csButton {
+    border-radius: 0px; 
+    background-color: #b7d68f; 
+    color: black; 
+    width: 250px; 
+    border: 0px;
+  }
+
+  .csButtonLabel {
+    font-size: 12px; 
+    letter-spacing: 2px;
+  }
+
+  .icon1Cont {
+    padding-top: 35px; 
+    padding-bottom: 30px; 
+    padding-left: 10px;
+  }
+
+  .csPlace {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 20px; 
+    
+  }
+
+  .icon2Cont {
+    padding-bottom: 30px; 
+  }
+
+  .csInfo {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 15px; 
+    margin-left: 10px;
+  }
+
+  .icon3Cont {
+  }
+
+  .csNumber {
+    color: white; 
+    letter-spacing: 1px; 
+    margin-top: 18px;
+    margin-left: 10px; 
+  }
+}

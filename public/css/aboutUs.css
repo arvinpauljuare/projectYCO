@@ -12,9 +12,9 @@
 }
 
 .asHistCont {
-	min-height: 100%; 
+	min-height: 80%; 
 	width: 100%; 
-	padding: 50px; 
+	padding: 0px; 
 	background-color: white
 }
 
@@ -41,7 +41,7 @@
 	opacity: 0.85; 
 	filter: alpha(opacity=85); 
 	position: absolute; 
-	top: 269%; 
+	top: 199%; 
 	left: 50%; 
 	transform: translateX(-50%) translateY(-50%); 
 	-ms-transform: translateX(-50%) translateY(-50%);

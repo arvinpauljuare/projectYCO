@@ -10,10 +10,16 @@
   	<!-- HISTORY -->
   	<div style="" class="asHistCont">
     	<div class="row text-center">
-      		<img class="asHistBanner" src="{{ asset('img/aboutUs/historyBanner.png') }}">
+      		<img src="{{ asset('img/home/eye.png') }}" class="visionMissionIcon">
+          <p class="visionMissionLabel">VISION & MISSION</p>
     	</div>
     	<div class="row text-center" style="padding-top: 20px;">
-      		<img class="asHistTime" src="{{ asset('img/aboutUs/history.png') }}">
+      	<div class="visionMissionText">
+          <span>Envisioned to be among the world’s leading companies, YCOptimum Holdings, through our commitment to constant innovation, integrity, and dynamism, shall deliver beyond expectation complete range of high-quality, innovative, and efficient solutions and services to our clientele by building an organization of passionate and globally-competitive team members working together to impart added optimum value to our business relations.</span>
+          <br>
+          <br>
+          <span>At YCOptimum Holdings, our goal is to be the best in everything we do.</span>
+        </div>
     	</div>
   	</div>
 
@@ -27,40 +33,40 @@
   	</div>
 
   	<!-- PEOPLE -->
-  	<div id="" class="asPeopleCont">
-		<div class="row text-center">
-  			<img class="asPeopleTitle" src="{{ asset('img/aboutUs/aboutUsPeopleTitle.png') }}">
-		</div>
+  <!-- 	<div id="" class="asPeopleCont">
+  		<div class="row text-center">
+    			<img class="asPeopleTitle" src="{{ asset('img/aboutUs/aboutUsPeopleTitle.png') }}">
+  		</div>
 
-		<div class="row asPersonCont">
-   			<div class="col-md-4 asPersonPanel" style="">
-      			<div class="text-center asPersonInfoCont" style="">
-        			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
-        			<h4 class="asPersonName" style="">MARK</h4>
-        			<h5 class="asPersonPos">CEO</h5>
+  		<div class="row asPersonCont">
+     			<div class="col-md-4 asPersonPanel" style="">
+        			<div class="text-center asPersonInfoCont" style="">
+          			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
+          			<h4 class="asPersonName" style="">MARK</h4>
+          			<h5 class="asPersonPos">CEO</h5>
+       			</div>
+        			<h5 class="asPersonDesc">Description.</h5>
      			</div>
-      			<h5 class="asPersonDesc">Description.</h5>
-   			</div>
-  
-  			<div class="col-md-4 asPersonPanel" style="">
-    			<div class="text-center asPersonInfoCont" style="">
-        			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
-        			<h4 class="asPersonName">MARK</h4>
-        			<h5 class="asPersonPos">CEO</h5>
-      			</div>
-      			<h5 class="asPersonDesc">Description.</h5>
-  			</div>
-  			
-  			<div class="col-md-4 asPersonPanel" style="">
-   	 			<div class="text-center asPersonInfoCont" style="">
-        			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
-        			<h4 class="asPersonName">MARK</h4>
-        			<h5 class="asPersonPos">CEO</h5>
-      			</div>
-      			<h5 class="asPersonDesc">Description.</h5>
-  			</div>
-		</div>
-	</div>
+    
+    			<div class="col-md-4 asPersonPanel" style="">
+      			<div class="text-center asPersonInfoCont" style="">
+          			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
+          			<h4 class="asPersonName">MARK</h4>
+          			<h5 class="asPersonPos">CEO</h5>
+        			</div>
+        			<h5 class="asPersonDesc">Description.</h5>
+    			</div>
+    			
+    			<div class="col-md-4 asPersonPanel" style="">
+     	 			<div class="text-center asPersonInfoCont" style="">
+          			<img class="imgcircle" src="{{ asset('img/aboutUs/samplePic.jpg') }}">
+          			<h4 class="asPersonName">MARK</h4>
+          			<h5 class="asPersonPos">CEO</h5>
+        			</div>
+        			<h5 class="asPersonDesc">Description.</h5>
+    			</div>
+  		</div>
+  	</div> -->
 
 	<!-- CONTACT US -->
 	<div class="asCSCont" id="aboutUsContact">

@@ -2,9 +2,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 <!-- BOOTSTRAP -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script src="{{ asset('js/contactus.js') }}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAc3y3FDlCR6U2d7fH8i6tKmHLr0jegxk&callback=contactusmap"></script>
+
+<script src="{{ asset('js/dropzone.js') }}"></script>
+<script src="{{ asset('js/upload.js') }}"></script>
+<script src="{{ asset('js/upload_ycodesign.js') }}"></script>
+
+<script src="{{ asset('js/projects.js') }}"></script>
+<script src="{{ asset('js/projects_ycodesign.js') }}"></script>
+<script src="{{ asset('js/vegas.min.js') }}"></script>
+<script src="{{ asset('js/home.js') }}"></script>
 
 <!-- FOOTER -->
 <footer class="container-fluid bg-4 footerContainer">

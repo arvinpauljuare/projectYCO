@@ -1,9 +1,17 @@
 /* GENERIC */
+textarea {
+  resize: none;
+}
+
 .div100 {
   height: 100%; 
   width: 100%
 }
 
+#projectsContact {
+    background-image: url('../img/aboutUs/contactusWBG.png');
+    background-size: 100% 100%;
+}
 /* NAVBAR  */
 
 .navbar-inverse .navbar-nav>li>a {

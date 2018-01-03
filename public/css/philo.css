@@ -26,24 +26,28 @@
 }
 
 .philoWhatCont {
-	margin-bottom: 20px; 
-	margin-top: 50px;
+	/*margin-bottom: 20px; 
+	margin-top: 50px;*/
+	line-height: 20px; 
+    letter-spacing: 1px; 
+    font-size: 12px; 
+    text-align: justify;
 }
 
 .philoWhatBlock {
-	height: 300px; 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-	width: 800px; 
+	height: 370px; 
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+	width: 900px; 
 	background-color: white;
 }
 
 .philoWhatImg {
 	width: auto; 
-	max-width: 305px;
+	max-width: 375px;
 }
 
 .philoWhatLabel {
-	font-size: 29px; 
+	font-size: 25px; 
 	font-weight: 500; 
 	letter-spacing: 1.5px;
 }
